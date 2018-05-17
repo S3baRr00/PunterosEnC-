@@ -1,0 +1,23 @@
+los punteros son direcciones donde se encuentra el dato. una referencia a la direccion de memoria 
+los punteros siempre manejan valores por referencia
+
+no solo tengo lo que esta guardado sino que tambien obtengo la direccion de memoria donde esta guardado
+
+la direccion de memoria de una variable puntero contiene la direccion de memoria de otros datos que se le assignen
+
+una desventaja del puntero:
+cunado yo escribo un puntero pero no le pongo valor me puede mostrar cualquier cosa 
+si el puntero apunta a una direccion no compatible con lo que quiero mostrar entonces la computadora se podria tildar
+la probabilidad de que muestre un valor incompatible es alta pero no falla siempre nesesariamente lo que es peligroso porque usando esa misma variable en otro caso podria fallar 
+
+se puede hacer punteros con lo que se quiera
+incluso un puntero de un puntero
+
+un puntero tiene una direccion de memoria y un tipo de datos. es decir va a tener una prolongacion segun el tipo de datos que tiene asignado
+el elemento mas pequeño puede contener a mas elementos
+
+los punteros pueden apuntar a cualquier direccion y la forma que te devuelva ese dato depende del tipo de valor en el que este declarado la variable puntero
+
+nosotros tenemos que indicarle hasta donde debe rrecorrer el puntero
+para eso se debe hacer un array de vectores.
+
