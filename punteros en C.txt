@@ -1,5 +1,16 @@
-los punteros son direcciones donde se encuentra el dato. una referencia a la direccion de memoria 
+﻿los punteros son variables que guardan direcciones de memoria de por lo general otra variable donde se encuentra el dato. una referencia a la direccion de memoria 
 los punteros siempre manejan valores por referencia
+
+la ventaja esta en la eficiencia que permite trabajar con estos. te da la posibilidad de administrar mejor los recursos
+podemos hacer un vector dinamico y que ese vector aumente o reduzca un tamaño
+
+un vector es una direccion de memoria 
+un puntero tiene que ser consistente con el tipo de dato
+
+tambien movemos menos cantidad de datos en memoria 
+
+
+//(2sectores de memoria : uno es la pila con una cuota reducida de memoria. esta diseñada a que se guarden direcciones de memoria. el otro es el monton)
 
 no solo tengo lo que esta guardado sino que tambien obtengo la direccion de memoria donde esta guardado
 

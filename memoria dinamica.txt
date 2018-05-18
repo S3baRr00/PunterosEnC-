@@ -1,0 +1,16 @@
+es posible guardar los datos en archivos para que cuando se inicie el programa se pueda cargar loos valores ingresados con anterioridad
+
+3 cosas que se deben hacer siempre:
+
+abrir el archivo //si no se abre no se puede guardar
+
+usar el archivo
+
+cerrar el archivo // si no se cierra permanece abierto y no se puede modificar o eliminar
+
+se pueden crear 2 tipo de archivos:
+
+de texto aunque sean numeros se guardan en forma de texto
+
+binarios: donde se pueden guardar informacion segun el tipo de dato
+feof: FIND END OF FILE(busca el final del archivo);
