@@ -98,7 +98,9 @@ EJEMPLO 3;
    for(i=0;i<5;i++){
     printf("%d \n", lista[i]);
    }
-   */
+
+   EJEMPLO: BINARIO
+
    FILE* miArchivo;
    eDato d={1,'b'};
        miArchivo= fopen("miBinario.dat", "wb");//dat o bin para binarios // wb es para escribir en binario
@@ -114,5 +116,18 @@ EJEMPLO 3;
            fclose(miArchivo);
            printf("%d--%c",d.i, d.j);
        }
+       */
+
+
+
+    FILE* archivo;
+    archivo= fopen("mihtml.html","w");
+
+     if(archivo!= NULL){
+        fprintf(archivo,"<html><head>hola<\head><body><\html>");
+        fclose(archivo);
+     }
+
+
     return 0;
 }

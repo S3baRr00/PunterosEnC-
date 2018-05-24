@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
-1527168160 source:d:\##gitclone\punterosenc-\punteros y archivos\main.c
+1527174465 source:d:\##gitclone\punterosenc-\punteros y archivos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1527174706 source:d:\##gitclone\punterosenc-\punteros y archivos\q.c
 	<stdio.h>
 	<stdlib.h>
 
