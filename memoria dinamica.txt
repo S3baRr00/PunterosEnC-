@@ -14,3 +14,8 @@ de texto aunque sean numeros se guardan en forma de texto
 
 binarios: donde se pueden guardar informacion segun el tipo de dato
 feof: FIND END OF FILE(busca el final del archivo);
+
+archivos binarios guardan info en binario respetando el tipo de dato que se guardan
+los archivos de texto tambien se guardan en binario pero se va a serializar su valor en ascii
+
+para identificar que es cada dato que tiene forma binaria, se le agrega un caracter especial. esto se llama split y viene con el fscanf
